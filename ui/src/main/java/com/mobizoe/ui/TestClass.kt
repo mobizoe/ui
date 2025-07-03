@@ -4,4 +4,8 @@ class TestClass {
     fun testFunction(){
         print("Hello")
     }
+
+    fun newTestFunction(){
+        print("Yehoooo")
+    }
 }
