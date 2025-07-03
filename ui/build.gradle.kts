@@ -31,7 +31,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.0" // compose versiyonuna göre değişebilir
+        kotlinCompilerExtensionVersion = "2.0.0"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
