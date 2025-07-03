@@ -40,8 +40,8 @@ android {
                     from(components["release"])
 
                     groupId = "com.mobizoe.ui"
-                    artifactId = "v"
-                    version = "1.0"
+                    artifactId = "components"
+                    version = "1.0.0"
                 }
             }
         }
