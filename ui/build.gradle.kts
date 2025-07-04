@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android") version "1.9.24"
+    id("org.jetbrains.kotlin.android") version "2.0.21"
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.21"
     id("maven-publish")
 }
 
@@ -25,9 +26,6 @@ android {
     }
     buildFeatures {
         compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.13" // Kotlin 1.9.24 ile uyumlu versiyon
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
